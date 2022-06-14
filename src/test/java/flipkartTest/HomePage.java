@@ -21,7 +21,7 @@ public class HomePage<Webdriver> {
 		
 		driver = new ChromeDriver();
 		       
-		Thread.sleep(2000);		
+		
 	}
 	@Test(priority = 2)
 	public void openUrl() throws Exception {
