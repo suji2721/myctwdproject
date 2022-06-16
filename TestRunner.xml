@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="fkartTesting" verbose="1" >
+  
+  
+
+ <test name="1.fkartLoginPageTest" >
+    <classes>
+       <class name="flipkartTest.LoginPageTest" />
+    </classes>
+  </test>
+    
+     <test name="2.fkartPriceSliderTest" >
+    <classes>
+       <class name="flipkartTest.PriceSlider" />
+    </classes>
+  </test>
+ 
+ <test name="3.fkartRedmiPageTest" >
+    <classes>
+       <class name="flipkartTest.RedmiTest" />
+    </classes>
+  </test>
+ 
+    
+</suite>
